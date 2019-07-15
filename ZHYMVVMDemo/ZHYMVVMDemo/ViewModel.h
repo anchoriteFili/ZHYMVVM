@@ -13,9 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^ViewModelBlock)(Model *model);
 
+// 接口接受数据，将接受的数据交由model进行处理，并将处理后的数据交给VC
 @interface ViewModel : NSObject
 
 @property (nonatomic,copy) ViewModelBlock vmBlock; // 后台数据传递中介
+
+@property (nonatomic,strong) NSDictionary *changeName; // 移除一个名字
 
 // 通过block进行数据绑定，将获取的数据通过block传递给VC
 - (instancetype)initWithBlock:(ViewModelBlock)block;

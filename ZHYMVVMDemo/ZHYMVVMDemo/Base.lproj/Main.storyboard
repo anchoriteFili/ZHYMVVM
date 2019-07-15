@@ -32,14 +32,92 @@
                                     <action selector="refreshClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m9Y-3B-uX9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2al-V0-pUn">
+                                <rect key="frame" x="116" y="493" width="182" height="30"/>
+                                <color key="backgroundColor" red="0.18831446769999999" green="0.64276164229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YUj-uW-kaa"/>
+                                    <constraint firstAttribute="width" constant="182" id="ZL6-Sn-c9F"/>
+                                </constraints>
+                                <state key="normal" title="张三">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeNames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qr1-C1-H1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yg5-am-g47">
+                                <rect key="frame" x="116" y="540" width="182" height="30"/>
+                                <color key="backgroundColor" red="0.18831446769999999" green="0.64276164229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6fa-Ol-jXR"/>
+                                    <constraint firstAttribute="width" constant="182" id="VRM-ce-V3n"/>
+                                </constraints>
+                                <state key="normal" title="李四">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeNames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OHs-mr-a7E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZk-t1-3CU">
+                                <rect key="frame" x="116" y="588" width="182" height="30"/>
+                                <color key="backgroundColor" red="0.18831446769999999" green="0.64276164229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="oNf-S5-OhB"/>
+                                    <constraint firstAttribute="height" constant="30" id="p0T-rD-ifo"/>
+                                </constraints>
+                                <state key="normal" title="王五">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeNames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eN8-ev-ChJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVs-pf-pRi">
+                                <rect key="frame" x="116" y="636" width="182" height="30"/>
+                                <color key="backgroundColor" red="0.18831446769999999" green="0.64276164229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="Rtw-nM-qeE"/>
+                                    <constraint firstAttribute="height" constant="30" id="jE5-Co-UFg"/>
+                                </constraints>
+                                <state key="normal" title="三丰">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeNames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ck-ZF-hsh"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDi-be-81b">
+                                <rect key="frame" x="0.0" y="202" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.18831446769999999" green="0.64276164229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qoP-IF-BY8"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2al-V0-pUn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9hU-Wc-cjX"/>
+                            <constraint firstItem="yg5-am-g47" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Iud-2u-013"/>
+                            <constraint firstItem="bDi-be-81b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="LCh-c0-us0"/>
+                            <constraint firstItem="vZk-t1-3CU" firstAttribute="top" secondItem="yg5-am-g47" secondAttribute="bottom" constant="18" id="O3g-9i-GAn"/>
                             <constraint firstItem="AVf-Ig-8TY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qcy-Qe-DhK"/>
+                            <constraint firstItem="bDi-be-81b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bSd-Kc-VKZ"/>
+                            <constraint firstItem="lVs-pf-pRi" firstAttribute="top" secondItem="vZk-t1-3CU" secondAttribute="bottom" constant="18" id="cvy-k6-xjx"/>
+                            <constraint firstItem="vZk-t1-3CU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gCz-6p-i0U"/>
+                            <constraint firstItem="bDi-be-81b" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jQa-uY-MWX"/>
+                            <constraint firstItem="2al-V0-pUn" firstAttribute="top" secondItem="AVf-Ig-8TY" secondAttribute="bottom" constant="30" id="p6b-tJ-iFp"/>
+                            <constraint firstItem="lVs-pf-pRi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rxz-k2-d68"/>
                             <constraint firstItem="AVf-Ig-8TY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="slE-ri-c1x"/>
+                            <constraint firstItem="2al-V0-pUn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t2z-JL-mYz"/>
+                            <constraint firstItem="yg5-am-g47" firstAttribute="top" secondItem="2al-V0-pUn" secondAttribute="bottom" constant="17" id="yCR-Fs-Ofc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="namesView" destination="bDi-be-81b" id="f0W-Mx-CjE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

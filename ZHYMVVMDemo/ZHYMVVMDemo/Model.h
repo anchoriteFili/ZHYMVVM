@@ -10,12 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// 处理接口基本数据
 @interface Model : NSObject
 
-
-@property (nonatomic,strong) NSString *name;
-
-
+@property (nonatomic,strong) NSMutableArray *names;
 
 @end
 
